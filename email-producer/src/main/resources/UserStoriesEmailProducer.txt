@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+
+
+Email-Producer
+
+
+
+REST API:
+
+- Should return 'Email created' message when email was sent on '/email'
+
+- Should send email to queue when email was sent on '/email'
+
+- Should return 'Email not sent' when RabbitMQ not responding
