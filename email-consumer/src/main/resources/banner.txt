@@ -7,4 +7,4 @@
         | |
         |_|
 
- CodeCouple.pl :: Email - Producer :: Krzysztof Chruściel
+ CodeCouple.pl :: Email - Consumer :: Krzysztof Chruściel

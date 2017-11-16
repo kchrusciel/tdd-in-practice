@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content="SpreadIT - example"/>
+    <meta name="author" content="CodeCouple"/>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <title>SpreadIT</title>
+</head>
+<body>
+
+<div class="container">
+    <h2>ENOUGH WITH THE THEORY, LET’S TDD - Krzysztof Chruściel</h2>
+    <div class="row">
+        <h3>Generic-Emails:</h3>
+        <div class="row" th:each="email:${emails}">
+            <div th:id="${email.id}" class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" th:text="${email.title}">[email.title]</h3>
+                </div>
+                <div class="panel-body">
+                    <p th:text="${email.content}" class="text-justify">[email.content]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
