@@ -1,4 +1,4 @@
-package pl.spreadit.email.domain;
+package pl.codecouple.email.domain;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,7 +1,7 @@
-package pl.spreadit.email.domain;
+package pl.codecouple.email.domain;
 
-import pl.spreadit.email.dto.CreateEmailDTO;
-import pl.spreadit.email.dto.EmailDTO;
+import pl.codecouple.email.dto.CreateEmailDTO;
+import pl.codecouple.email.dto.EmailDTO;
 
 import java.util.List;
 

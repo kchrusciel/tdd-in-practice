@@ -1,4 +1,4 @@
-package pl.spreadit.email.domain;
+package pl.codecouple.email.domain;
 
 import java.util.ArrayList;
 import java.util.HashMap;

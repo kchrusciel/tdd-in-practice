@@ -1,14 +1,14 @@
-package pl.spreadit.email.dto;
+package pl.codecouple.email.dto;
 
 import lombok.*;
 
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Data
+@EqualsAndHashCode
 @Builder
-public class EmailDTO {
+public class CreateEmailDTO {
 
-    private long id;
     private String title;
     private String content;
 

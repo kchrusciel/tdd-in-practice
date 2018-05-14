@@ -1,4 +1,4 @@
-package pl.spreadit.email.web
+package pl.codecouple.email.web
 
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver

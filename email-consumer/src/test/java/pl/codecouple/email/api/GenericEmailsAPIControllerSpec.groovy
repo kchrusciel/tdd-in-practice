@@ -1,4 +1,4 @@
-package pl.spreadit.email.api
+package pl.codecouple.email.api
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.springframework.beans.factory.annotation.Autowired
@@ -6,9 +6,9 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
 import org.springframework.boot.test.mock.mockito.MockBean
 import org.springframework.http.MediaType
 import org.springframework.test.web.servlet.MockMvc
-import pl.spreadit.email.domain.EmailFacade
-import pl.spreadit.email.dto.CreateEmailDTO
-import pl.spreadit.email.dto.EmailDTO
+import pl.codecouple.email.domain.EmailFacade
+import pl.codecouple.email.dto.CreateEmailDTO
+import pl.codecouple.email.dto.EmailDTO
 import spock.lang.Specification
 
 import static org.mockito.Mockito.when

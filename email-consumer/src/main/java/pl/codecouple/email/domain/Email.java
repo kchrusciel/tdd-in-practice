@@ -1,10 +1,10 @@
-package pl.spreadit.email.domain;
+package pl.codecouple.email.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import pl.spreadit.email.dto.EmailDTO;
+import pl.codecouple.email.dto.EmailDTO;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

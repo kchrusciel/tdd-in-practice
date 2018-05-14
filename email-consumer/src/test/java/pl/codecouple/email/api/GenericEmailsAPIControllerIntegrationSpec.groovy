@@ -1,11 +1,11 @@
-package pl.spreadit.email.api
+package pl.codecouple.email.api
 
 import org.springframework.boot.test.context.SpringBootTest
 import org.springframework.core.ParameterizedTypeReference
 import org.springframework.http.*
 import org.springframework.web.client.RestTemplate
-import pl.spreadit.email.dto.CreateEmailDTO
-import pl.spreadit.email.dto.EmailDTO
+import pl.codecouple.email.dto.CreateEmailDTO
+import pl.codecouple.email.dto.EmailDTO
 import spock.lang.Specification
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)

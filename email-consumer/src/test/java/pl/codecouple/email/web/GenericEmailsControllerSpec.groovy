@@ -1,12 +1,12 @@
-package pl.spreadit.email.web
+package pl.codecouple.email.web
 
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest
 import org.springframework.boot.test.mock.mockito.MockBean
-import pl.spreadit.email.domain.EmailFacade
-import pl.spreadit.email.dto.EmailDTO
+import pl.codecouple.email.domain.EmailFacade
+import pl.codecouple.email.dto.EmailDTO
 import spock.lang.Specification
 
 import static org.mockito.Mockito.when

@@ -1,6 +1,6 @@
-package pl.spreadit.email.domain
+package pl.codecouple.email.domain
 
-import pl.spreadit.email.dto.CreateEmailDTO
+import pl.codecouple.email.dto.CreateEmailDTO
 import spock.lang.Specification
 /**
  * Created by CodeCouple.pl
