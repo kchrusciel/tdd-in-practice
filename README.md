@@ -1,2 +1,2 @@
-# spreadit-tdd
-SpreadIT - Enough with the theory, let’s TDD!
+# TDD in practice
+Materials for presentation about TDD in practice
